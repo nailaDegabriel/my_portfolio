@@ -7,9 +7,8 @@
     <style>
       body { 
         font-family: Arial, sans-serif; 
-        max-width: 800px;
-        margin: 0 auto; 
-        padding: 20px; 
+        margin: 0; 
+        padding: 40px 20px; 
         
         /* Adds the background image */
         background-image: url('1265805.png'); 
@@ -26,27 +25,44 @@
         /* Fallback color in case the image fails to load */
         background-color: #f0e6ff; 
       }
-      h1   { color: #4a2809; }
+
+      /* Style for the container box wrapping your text */
+      .content-box {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.9); /* White box with 90% opacity */
+        border-radius: 12px;                        /* Rounds the corners of the box */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow effect */
+      }
+
+      h1   { color: #4a2809; margin-top: 0; }
       h2   { color: #271302; border-bottom: 2px solid #100b38; }
       p    { line-height: 1.6; }
     </style>
   </head>
   <body>
-    <h1>Hi, I'm Naila!</h1>
- 
-    <h2>About Me</h2>
-    <p>I go to an engineering school and I've learnt a lot about team work and problem solving skills. I like to spend time outside of school with my loved ones.</p>
- 
-    <h2>My Interests</h2>
-    <p>Volleyball and music</p>
- 
-    <h2>My Goals for This Course</h2>
-    <p>I want to improve my coding skills </p>
-    
-    <h2>My GitHub</h2>
-    <p>Check out my projects: 
-      <a href="https://github.com/nailaDegabriel">GitHub Profile</a> and
-      <a href="https://cad.onshape.com/documents/5729d6a694c45c90a1757ee2/w/7732eae1e74225032bbf1e7b/e/9d169453ac828df1f7fc55fd">nailaDegabriel OnShape</a>
-    </p>
+
+    <!-- The container box starts here -->
+    <div class="content-box">
+      <h1>Hi, I'm Naila!</h1>
+   
+      <h2>About Me</h2>
+      <p>I go to an engineering school and I've learnt a lot about team work and problem solving skills. I like to spend time outside of school with my loved ones.</p>
+   
+      <h2>My Interests</h2>
+      <p>Volleyball and music</p>
+   
+      <h2>My Goals for This Course</h2>
+      <p>I want to improve my coding skills </p>
+      
+      <h2>My GitHub</h2>
+      <p>Check out my projects: 
+        <a href="https://github.com/nailaDegabriel">GitHub Profile</a> and
+        <a href="https://cad.onshape.com/documents/5729d6a694c45c90a1757ee2/w/7732eae1e74225032bbf1e7b/e/9d169453ac828df1f7fc55fd">nailaDegabriel OnShape</a>
+      </p>
+    </div>
+    <!-- The container box ends here -->
+
   </body>
 </html>
